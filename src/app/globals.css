@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #f8f5ed; color: #292b22; font-family: Arial, Helvetica, sans-serif; }
+::selection { background: #dfcba8; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
